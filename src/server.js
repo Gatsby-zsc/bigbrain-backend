@@ -277,7 +277,7 @@ const port = process.env.PORT || 10000;
 
 const server = app.listen(port, () => {
   console.log(`Backend is now listening on port ${port}!`);
-  console.log(`For API docs, navigate to http://localhost:${port}`);
+  console.log(`For API docs, navigate to https://localhost:${port}`);
 });
 
 export default server;
